@@ -5,85 +5,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
-    
+    font-family: sans-serif;
 }
 
+/********************************MENU*****************************/
+
 .body{
-    background-color: rgb(196, 247, 242);
+    background-color: rgb(230, 247, 171);
     
+
 }
- header{
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 2rem 8rem 2rem;
-    background-image: url(../img/331829615_939345463924842_6160714323792223509_n.jpg);
- }
+    padding: 2rem;
+    background-image: url(../img/fondonegr.png);
 
-.logoPeyrano {
-    max-width: 20rem;
+}
+
+.logo {
     align-content: center;
-    
+    max-width: 15rem;
 }
 
 .menu {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    flex-wrap: wrap;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
-    position: :fixed;
-    
-}
-
-
-
-.fotoEntradaFondo {
-    gap: 8ram;
-}
-
-.NuestroPueblo {
-    font-size: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:  rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    position: : fixed;
 }
 
 .menu li a {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    text-decoration: none; 
-       
-}
-
-.menuLi:hover {
-    background-color: rgb(97, 226, 11);
-    padding: 20px;
-}
-
-.Pey {
-    background-image: url(../img/331829615_939345463924842_6160714323792223509_n.jpg);
-    height: 700px;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
-    background-size: cover;
+    text-decoration: none;
+    background: rgb(12, 12, 12); 
+    border: 5px solid white;
+    text-decoration: none;
+    padding: 1rem;
     
 }
 
-.parrafo1{
-    width: 35%;
-    font-size: larger;
-    margin: 20px 20px 0 0;
-    padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.menu li :hover {
+    background: rgb(253, 253, 253);
+    color: brown;
+}
 
-} 
 
+/***********************Arranca la historia del pueblo***********************/
 
 .parrafo2 {
     font-size: larger;
@@ -92,14 +67,6 @@
     text-align: center;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.article {
-    background-image: url(../img/luces_led_avenida1_0.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    margin-left: 2px;
-
 }
     
 .titulo2 {
@@ -115,18 +82,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
     margin-top: 50px;
-
+    padding: 1rem;
 }
-
+/*
 .titulo4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
     margin-top: 50px;
 }
 
-
+*/
+/****************************footer*********************************/
 .footer {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
     font-size: larger;
     background-image: url(../img/fondonegr.png);
     width: 100%;
@@ -139,7 +107,7 @@
     padding: 1rem;
 }
 
-/********************************NUESTRA HISTORIA***********************************************/
+/***********************************NUESTRA HISTORIA***********************************************/
 
 .tituloPeyrano {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -190,11 +158,27 @@
     flex-direction: column;
 }
 
-.todoslostramites{
+.todosLosTramites{
     padding: 2rem;
     display: flex;
     gap: 1rem;
 }
+
+
+/**********************************LUGARES DESTACADOS**********************************/
+
+.col:hover {
+    background-color: rgb(97, 226, 11);
+    padding: 20px;
+}
+
+.section {
+    padding: 2rem;
+    display: flex;
+}
+
+
+
 /***********************************CONTACTO*******************************************/
 
 .redes {
