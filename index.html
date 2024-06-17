@@ -13,34 +13,42 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-
+ <!--------------------------- MENU ---------------------------> 
 <body class="body">
-    <header>     
-    <!--------------------------- MENU ---------------------------> 
-        <img src="../img/logo01_0.png" alt="Logo de Peyrano" title="Logo de Peyrano" class="logo">
-                <nav class="inicioMenu">
-                    <ul class="menu">
-                        <li class="menuLi">
-                            <a href="../index.html">Inicio</a>
-                        </li>
-                        <li class="menuLi">
-                            <a href="./pages/historia.html">Historia</a>
-                        </li>
-                        <li class="menuLi">
-                            <a href="../pages/lugares destacados.html">Lugares Destacados</a>
-                        </li>
-                        <li class="menuLi">
-                            <a href="../pages/como llegar.html">Como Llegar</a>
-                        </li>
-                        <li class="menuLi">
-                            <a href="../pages/tramites.html">Trámites</a>
-                        </li>
-                        <li class="menuLi">
-                            <a href="../pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>   
-                </nav>
-    </header>
+<header class="fondoMenu">
+    <nav class="navbar navbar-expand-lg bs-light-text-emphasis">
+        <div class="container-fluid">
+            <img src="./img/logo.jpg" alt="logo" class="logo">
+          <a class="navbar-brand" href="#"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" >
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/lugares destacados.html">LUGARES DESTACADOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/historia.html">HISTORIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/tramites.html">TRÁMITES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/como llegar.html">UBICACIÓN</a>
+              </li>   <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
 
     
 <!--------------------------- PARRAFOS ---------------------------> 
@@ -48,21 +56,14 @@
     <div class="row mt-4">
         <div class="col-md-2-9 d-flex flex-column justify-content-center">
                 <h2 class="titulo3">Un pueblo que enamora.</h2>
-                <p>Peyrano es un pueblo pintoresco por donde se lo mire. Desde el mismo acceso a la ruta 18 —un camino bordeado de árboles en sus casi 3 kilómetros de extensión—, con anchos bulevares tachonados de añejas palmeras y sus plazas y espacios verdes cautiva al primer golpe de vista. Y lo seguirá haciendo, no bien uno transite por la bucólica tranquilidad de sus calles, o se pare en una esquina a conversar con su gente, abierta y sencilla, cálida.</p>
-
-                <p>Desde siempre, la cultura ocupó un lugar de privilegio en la comunidad, con músicos, compositores, cantores, poetas, escritores o bailarines, muchos de los cuales llegaron a brillar en escenarios de la Argentina y del exterior. Mientras tanto, y para mantener viva esa llama cultural se llevan a cabo talleres.</p>
-
-                <p>Uno de los pueblos mas tranquilos y lindos de la zona, tanto por su naturaleza como por sus habitantes. Hermoso de visitar. Te esperamos!              
+                <p class="parrafo2">Peyrano es un pueblo pintoresco por donde se lo mire. Desde el mismo acceso a la ruta 18 —un camino bordeado de árboles en sus casi 3 kilómetros de extensión—, con anchos bulevares tachonados de añejas palmeras y sus plazas y espacios verdes cautiva al primer golpe de vista. Y lo seguirá haciendo, no bien uno transite por la bucólica tranquilidad de sus calles, o se pare en una esquina a conversar con su gente, abierta y sencilla, cálida.</p>
+                <p class="parrafo2">Desde siempre, la cultura ocupó un lugar de privilegio en la comunidad, con músicos, compositores, cantores, poetas, escritores o bailarines, muchos de los cuales llegaron a brillar en escenarios de la Argentina y del exterior. Mientras tanto, y para mantener viva esa llama cultural se llevan a cabo talleres.</p>
+                <p class="parrafo2">Uno de los pueblos mas tranquilos y lindos de la zona, tanto por su naturaleza como por sus habitantes. Hermoso de visitar. Te esperamos!              
         </div>
-
-
-    
     </div>
 </section>
 
-
-
-
+<!---------------------carrousel de fotos-------------------------->
 <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -90,6 +91,7 @@
     </button>
 </div>
     
+<!--------------------------- PARRAFOS ---------------------------> 
     <main>
         <article>
             <h2 class="titulo3">La historia del festival folkclorico del pueblo.</h2>
@@ -99,6 +101,27 @@
         </article>
     </main>
 </div>    
+
+
+<!------------------------------trabaja con nosotros----------------->
+<div>
+    <h2 class="titulo3">Si queres trabajar con nosotros, te estamos buscando...</h2>
+        <div class="clearfix">
+            <img  class="col-md-6 float-md-end mb-3 ms-md-3 d-block" src="./img/oficina.jpg"alt="oficina" width="400px">
+        
+                <p class="parrafo2 p-2 justify-content-center"> Conoces nuestro pueblo, sabes que necesitamos para mejorar y crecer y tenes ganas de aprender, no dudes en sumarte a nuestro equipo de trabajo local.</p>
+        
+                <p class="parrafo2 justify-content-center"> Formamos un gran equipo de más de 20 personas que trabajamos en un ambiente dinámico, innovador y desafiante en las diversas unidades de negocio de la compañía. Empleamos diversos perfiles ofreciendo la posibilidad de trabajar en distintas áreas, desarrollándote a nivel personal y profesional.</p>
+        
+                <p class="parrafo2 justify-content-center"> And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.</p>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Enviar CV</button>
+          </div>
+</div>
+
+
 <!--------------------------- FOOTER ---------------------------> 
     <footer>
         <p class="footer">Copyrigth - Todos los derechos reservados.</p>

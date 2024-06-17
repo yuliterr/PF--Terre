@@ -12,24 +12,26 @@
 
 .body{
     background-color: rgb(230, 247, 171);
-    
-
 }
-
+/*
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
+    justify-content: center;
+    padding: 1rem;
     background-image: url(../img/fondonegr.png);
-
 }
+*/
 
 .logo {
     align-content: center;
-    max-width: 15rem;
+    max-width: 5rem;
 }
 
+.fondoMenu {
+    background-color: gray;
+}
+/*
 .menu {
     display: flex;
     list-style-type: none;
@@ -38,7 +40,7 @@ header {
     gap: 2rem;
     padding: 1rem;
     flex-wrap: wrap;
-    position: : fixed;
+    position: :fixed;
 }
 
 .menu li a {
@@ -49,7 +51,6 @@ header {
     border: 5px solid white;
     text-decoration: none;
     padding: 1rem;
-    
 }
 
 .menu li :hover {
@@ -57,41 +58,51 @@ header {
     color: brown;
 }
 
+.navbar {
+    justify-content: space-between;
+}
 
+.navbar-nav {
+    color: rgb(92, 91, 91);
+    font-size: 20px;
+    text-decoration: none;
+    
+    text-decoration: none;
+    padding: 1rem;
+}
+*/
+.navbar-nav :hover {
+    background: rgb(51, 51, 51);
+    color: rgb(235, 250, 232); 
+    border: 2px solid rgb(51, 51, 51);
+}
 /***********************Arranca la historia del pueblo***********************/
 
 .parrafo2 {
     font-size: larger;
     width: 90%;
-    margin: 40px;
-    text-align: center;
+    margin: 20px;
+    text-align: justify;
     align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
     
 .titulo2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
     color: brown;
     margin-top: 30px;
     padding-right: 10px;
-    background-position: bottom center;
+    background-position: bottom;
     justify-content: end;
 }
 
 .titulo3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
     color: brown;
     margin-top: 50px;
     padding: 1rem;
 }
-/*
-.titulo4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
-    margin-top: 50px;
-}
 
-*/
+
 /****************************footer*********************************/
 .footer {
 
@@ -128,6 +139,7 @@ header {
     width: 700px;
     margin: 20px;
     image-orientation: from-image;
+    display: flex;
   
 }
 
@@ -167,7 +179,7 @@ header {
 
 /**********************************LUGARES DESTACADOS**********************************/
 
-.col:hover {
+.columna:hover {
     background-color: rgb(97, 226, 11);
     padding: 20px;
 }
