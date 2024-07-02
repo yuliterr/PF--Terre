@@ -31,46 +31,7 @@ header {
 .fondoMenu {
     background-color: gray;
 }
-/*
-.menu {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    padding: 1rem;
-    flex-wrap: wrap;
-    position: :fixed;
-}
 
-.menu li a {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-decoration: none;
-    background: rgb(12, 12, 12); 
-    border: 5px solid white;
-    text-decoration: none;
-    padding: 1rem;
-}
-
-.menu li :hover {
-    background: rgb(253, 253, 253);
-    color: brown;
-}
-
-.navbar {
-    justify-content: space-between;
-}
-
-.navbar-nav {
-    color: rgb(92, 91, 91);
-    font-size: 20px;
-    text-decoration: none;
-    
-    text-decoration: none;
-    padding: 1rem;
-}
-*/
 .navbar-nav :hover {
     background: rgb(51, 51, 51);
     color: rgb(235, 250, 232); 
@@ -109,7 +70,6 @@ header {
     font-size: larger;
     background-image: url(../img/fondonegr.png);
     width: 100%;
-    height: 50px;
     color: rgb(255, 255, 255);
     margin-top: 20px;
     display: flex;
@@ -154,12 +114,11 @@ header {
 
 .logos {
     width: 50px;
-
 }
 
 
-
 /***********************************TRAMITES*******************************************/
+
 .tramite {
     flex: 4;
     background-color: rgb(173, 248, 124);
@@ -168,14 +127,27 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+
 }
 
 .todosLosTramites{
     padding: 2rem;
     display: flex;
     gap: 1rem;
+ }   
+
+.todosLosTramites :hover {
+    transform: scale(1.1);
 }
 
+ 
+
+
+
+/**********************************COMO LLEGAR****************************************/
+.mapa{
+   margin: 2rem;
+}
 
 /**********************************LUGARES DESTACADOS**********************************/
 
@@ -189,41 +161,11 @@ header {
     display: flex;
 }
 
-
-
 /***********************************CONTACTO*******************************************/
 
-.redes {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    padding: 70px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-}
+.botonWhatsapp {
+    display: flex;
+    justify-content: end;
+    height: 10rem;
 
-.formulario {
-    color: brown;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    margin-bottom: 50px;
-}
-
-.cuadrado {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.enviar {
-    background-color: black;
-    border-radius: 5px ;
-    color: blanchedalmond;
-    font-size: 15px;
-}
-
-.bi:hover {
-    background-color: rgb(97, 226, 11);
-    padding: 20px;
 }
