@@ -8,36 +8,36 @@
     font-family: sans-serif;
 }
 
-/********************************MENU*****************************/
+* ::selection {
+    background-color: chocolate;
+    color: black;
+}
+/********************************MENU******************************************/
 
 .body{
     background-color: rgb(230, 247, 171);
 }
-/*
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    background-image: url(../img/fondonegr.png);
-}
-*/
 
 .logo {
     align-content: center;
     max-width: 5rem;
 }
 
-.fondoMenu {
-    background-color: gray;
+.navbar {
+    background-image: url(../img/fondoclaro.jpg);
+    font-size: 20px;
+ 
 }
 
 .navbar-nav :hover {
-    background: rgb(51, 51, 51);
-    color: rgb(235, 250, 232); 
-    border: 2px solid rgb(51, 51, 51);
+    background: rgb(255, 117, 4);
+    color: rgb(0, 0, 0); 
+    border: 2px solid rgb(255, 5, 5);
+    
 }
-/***********************Arranca la historia del pueblo***********************/
+
+
+/**************************************Arranca la historia del pueblo********************************/
 
 .parrafo2 {
     font-size: larger;
@@ -46,7 +46,7 @@ header {
     text-align: justify;
     align-items: center;
 }
-    
+
 .titulo2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
     color: brown;
@@ -58,19 +58,22 @@ header {
 
 .titulo3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-    color: brown;
+    color: rgb(252, 80, 12);
     margin-top: 50px;
     padding: 1rem;
 }
 
+.titulo3::first-letter {
+    color:rgb(83, 29, 0)
+}
 
-/****************************footer*********************************/
+/**********************************************FOOTER******************************************/
 .footer {
 
     font-size: larger;
-    background-image: url(../img/fondonegr.png);
+    background-image: url(../img/fondoclaro.jpg);
     width: 100%;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -95,13 +98,13 @@ header {
 
 }
 
-.fotoPlano {
-    width: 700px;
-    margin: 20px;
-    image-orientation: from-image;
-    display: flex;
-  
+@media screen and (max-width: 480px) {
+    .fotoPlano {
+        width: 400px;
+        margin: 10px;
+    }
 }
+
 
 .parrafoHistoria2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -117,7 +120,7 @@ header {
 }
 
 
-/***********************************TRAMITES*******************************************/
+/*****************************************TRAMITES*******************************************/
 
 .tramite {
     flex: 4;
@@ -127,6 +130,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 
 }
 
@@ -136,11 +140,10 @@ header {
     gap: 1rem;
  }   
 
-.todosLosTramites :hover {
+.tramite :hover {
     transform: scale(1.1);
+    background-color: rgb(146, 241, 241);
 }
-
- 
 
 
 
@@ -167,5 +170,6 @@ header {
     display: flex;
     justify-content: end;
     height: 10rem;
+    cursor: pointer;
 
 }
