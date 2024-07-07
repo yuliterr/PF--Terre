@@ -1,1 +1,132 @@
-@import "./partials/reset";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+
+    &::selection {
+    background-color: chocolate;
+    color: black;
+    }
+}
+
+.body{
+    background-color: rgb(230, 247, 171);
+   
+    .logo {
+        align-content: center;
+        max-width: 5rem;
+}
+}
+
+.navbar {
+    background-image: url(../img/fondoclaro.jpg);
+    font-size: 20px;
+}
+
+.navbar-nav :hover {
+    background: rgb(255, 117, 4);
+    color: rgb(0, 0, 0); 
+    border: 2px solid rgb(255, 5, 5);
+    
+}
+
+.titulo3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    color: rgb(252, 80, 12);
+    margin-top: 50px;
+    padding: 1rem;
+
+    &::first-letter {
+        color:rgb(83, 29, 0);
+    }
+}
+        
+.parrafo2 {
+    font-size: larger;
+    width: 90%;
+    margin: 20px;
+    text-align: justify;
+    align-items: center;
+    }
+
+@media screen and (max-width: 480px) {
+    .fotoPlano {
+        width: 400px;
+        margin: 10px;
+    }
+}
+
+.tramite {
+    flex: 4;
+    background-color: rgb(173, 248, 124);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+
+    .titulo3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+        color: rgb(252, 80, 12);
+        margin-top: 50px;
+        padding: 1rem;
+    
+            &::first-letter {
+                color:rgb(83, 29, 0);
+            }
+    }
+}
+
+.todosLosTramites{
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+
+    .tramite :hover {
+        transform: scale(1.1);
+        background-color: rgb(146, 241, 241);
+        }
+
+ }   
+
+.section {
+    padding: 2rem;
+    display: flex;
+
+    .columna:hover {
+        background-color: rgb(97, 226, 11);
+        padding: 20px;
+        }
+}
+
+
+.mapa{
+    margin: 2rem;
+ }
+ 
+
+.botonWhatsapp {
+    display: flex;
+    justify-content: end;
+    height: 10rem;
+    cursor: pointer;
+}
+
+
+.footer {
+    font-size: larger;
+    background-image: url(../img/fondoclaro.jpg);
+    width: 100%;
+    color: rgb(2, 2, 2);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+

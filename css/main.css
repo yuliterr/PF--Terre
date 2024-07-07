@@ -12,8 +12,8 @@
     background-color: chocolate;
     color: black;
 }
-/********************************MENU******************************************/
-
+   
+/*******************************MENU******************************************/ 
 .body{
     background-color: rgb(230, 247, 171);
 }
@@ -35,7 +35,6 @@
     border: 2px solid rgb(255, 5, 5);
     
 }
-
 
 /**************************************Arranca la historia del pueblo********************************/
 
@@ -81,7 +80,7 @@
     padding: 1rem;
 }
 
-/***********************************NUESTRA HISTORIA***********************************************/
+/***********************************NUESTRA HISTORIA********************************************/
 
 .tituloPeyrano {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -113,10 +112,6 @@
     margin-right: 50px;
     margin: 10px 50px 50px 50px;
     display: flex;
-}
-
-.logos {
-    width: 50px;
 }
 
 
