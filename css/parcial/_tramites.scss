@@ -1,0 +1,43 @@
+.tramite {
+    flex: 4;
+    background-color: rgb(173, 248, 124);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+
+    .titulo3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+        color: rgb(252, 80, 12);
+        margin-top: 50px;
+        padding: 1rem;
+    
+            &::first-letter {
+                color:rgb(83, 29, 0);
+            }
+    }
+}
+
+.todosLosTramites{
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+
+    .tramite :hover {
+        transform: scale(1.1);
+        background-color: rgb(146, 241, 241);
+        }
+}   
+
+.section {
+    padding: 2rem;
+    display: flex;
+
+    .columna:hover {
+        background-color: rgb(97, 226, 11);
+        padding: 20px;
+        }
+}
