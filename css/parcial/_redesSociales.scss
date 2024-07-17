@@ -1,18 +1,22 @@
-#btn-mas {
-    display: none;
-}
-.redesSociales {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.redes a, .icon-mas2 {
-    display: block;
-    text-decoration: none;
-    background: red;
-    color: beige;
-    width: 55px;
-    height: 55px;
+.botones {
     
+    display: flex;
+    justify-content: space-around;
+
+    a{
+        text-decoration: none;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: rgb(253, 178, 16);
+        color: rgb(0, 0, 0);
+        border-radius: 50%;
+        
+    }
+
+    a:hover {
+        rotate: 45deg;
+    }
 }
