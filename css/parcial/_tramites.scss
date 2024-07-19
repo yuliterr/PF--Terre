@@ -21,6 +21,7 @@
     }
 }
 
+
 .todosLosTramites{
     padding: 2rem;
     display: flex;
@@ -28,7 +29,7 @@
 
     .tramite :hover {
         transform: scale(1.1);
-        background-color: rgb(146, 241, 241);
+        background-color: rgb(228, 184, 63);
         }
 }   
 
@@ -37,7 +38,7 @@
     display: flex;
 
     .columna:hover {
-        background-color: rgb(97, 226, 11);
+        background-color: rgb(173, 248, 124);
         padding: 20px;
         }
 }
